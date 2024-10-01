@@ -1,0 +1,224 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.header h1 a {
+    display: block;
+    width: 162px;
+    height: 33px;
+    background: url(../imagse/logo.png);
+}
+
+
+
+.header .inner .gnb {
+    margin-left: 120px;
+    margin-right: auto;
+    color: #fff;
+}
+
+.header .inner .gnb>ul {
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+}
+
+.main_movie {
+    position: relative;
+}
+
+.main_movie video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main_movie .slg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_movie .slg h2 {
+    white-space: nowrap;
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.main_movie .slg h2 span {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.main_movie .slg p {
+    font-size: 32px;
+    color: #fff;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.main_content {
+    padding: 120px 0;
+}
+
+.main_content .title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main_content .title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 16px;
+}
+
+.main_content .title p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.main_content .title .btn {
+    display: inline-block;
+    background: #335173;
+    padding: 8px 24px;
+    color: #fff;
+}
+
+.main_content {
+    padding: 80px 0;
+}
+
+.main_content .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.main_content .inner .itm {
+    flex: 1;
+
+}
+
+.main_content .inner .itm figure {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.main_content .inner .itm img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.main_content .inner .cate {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.main_content .inner .cate::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 18px;
+    background: #335173;
+    margin-right: 8px;
+}
+
+.main_content .inner .desc {
+    font-size: 16px;
+    word-break: keep-all;
+    line-height: 24px;
+    margin-bottom: 40px;
+    height: 60px;
+
+}
+
+.main_business {
+    padding: 120px 0;
+}
+
+
+.main_business .title {
+    margin-bottom: 40px;
+}
+
+.main_business .title h2 {
+
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main_business .title p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.main_business .inner {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.main_business .inner .itm {
+    flex: 1;
+    text-align: center;
+
+}
+
+.main_business figure {
+    margin-bottom: 40px;
+}
+
+
+.main_business strong {
+    color: #335173;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.main_content2 .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main_content2 .itm01 {
+    font-size: 20px;
+
+}
+
+
+.main_content2 .title .btn {
+    display: inline-block;
+    background: #335173;
+    padding: 8px 24px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.main_content3 .inner {
+    padding: 120px 0;
+
+}
